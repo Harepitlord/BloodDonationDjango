@@ -1,0 +1,100 @@
+/* Original Tags */
+
+.pageBody {
+  font-size: 16px;
+  background-color: #008080;
+  font-family: tahoma, sans-serif;
+  color: #800051;
+  font-weight: bold;
+}
+
+h1{
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* End of Original Tag CSS */
+
+/* Body */
+
+#page-content {
+  font-weight: bold;
+}
+
+.title {
+  width: 60%;
+  border: 2px solid;
+  border-radius: 1px;
+  height: auto;
+  margin: 10px 2px 2px 10px;
+  position: relative;
+  padding : 15px 20px 15px;
+  text-align: center;
+  left:15%;
+}
+
+
+.litems {
+  height: auto;
+  border: 2px solid brown;
+  padding: 15px 20px;
+  float: left;
+  margin: 5px 10px 5px 5px;
+}
+
+.mitems {
+  height: auto;
+  margin: 5px 5px 5px 5px;
+  border: 2px solid brown;
+  padding: 15px 20px;
+  float: left;
+}
+
+.ritems {
+  height: auto;
+  margin: 5px;
+  border: 2px solid brown;
+  padding: 15px 20px;
+  float: left;
+}
+
+.scrolltext {
+  padding-top: 15px;
+  border-bottom: 2px black;
+}
+
+:hover {
+  animation-play-state: paused;
+}
+
+.lhead {
+  border-bottom: 2px solid black;
+  height: auto;
+}
+
+.dropdowns {
+  margin: 5px;
+  padding: 5px;
+}
+
+/* Responsive CSS for the body elements */
+
+@media (min-width: 1200px) {
+  .litems { width: 34%; }
+  .mitems { width: 30%; }
+  .ritems { width: 33%; }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .litems { width: 55%; }
+  .mitems { width: 40%; }
+  .ritems { width: 90%; }
+}
+
+@media screen and (max-width: 600px) {
+  .litems { width: 100%; }
+  .mitems { width: 100%; }
+  .ritems { width: 100%; }
+}
+
+/* Body */

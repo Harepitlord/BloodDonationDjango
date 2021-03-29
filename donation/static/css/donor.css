@@ -1,0 +1,58 @@
+
+.content {
+  align-content: center;
+  position : relative;
+  top : 275px;
+  text-align: center;
+  align-items: center;
+  margin: 15px;
+}
+
+button {
+  border : none;
+  color : white;
+  padding : 16px 32px;
+  text-align : center;
+  text-decoration : none;
+  display : inline-block;
+  font-size : 16px;
+  margin : 4px 2px;
+  transition-duration : 3s;
+  cursor : pointer;
+}
+
+  .Donor {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    visibility: hidden;
+  }
+
+  .Donor:hover {
+    background-color: green;
+    color: white;
+  }
+
+  .Worker {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    visibility: hidden;
+  }
+
+  .Worker:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+  .CampDetail {
+    background-color: white;
+    color: black;
+    border: 2px solid #DDFF25;
+    visibility: hidden;
+  }
+
+  .CampDetail:hover {
+    background-color: #DDFF25;
+    color: white;
+  }
